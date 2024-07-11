@@ -14,7 +14,7 @@ body{
 
 /* Utils */
 .container{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -23,8 +23,18 @@ body{
 }
 
 .basic-layout{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
+}
+
+.btn-layout{
+    background-color:  royalblue;
+    font-size: 17px;
+    color: white;
+    
+    height: 40px;
+    padding: 5px;
+    border: none;
 }
 
 /* Header */
@@ -110,3 +120,24 @@ body{
     min-height: 100px;
 }
 
+.header-bottom-title{
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.header-bottom-left{
+    width: 40%;
+    margin-top: 40px;
+}
+
+.header-bottom-left p{
+    margin-bottom: 27px;
+}
+
+.header-bottom-left button{
+    margin-bottom: 27px;
+}
+
+.fa-arrow-down:hover{
+    color: gray;
+}
