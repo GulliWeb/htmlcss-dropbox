@@ -141,3 +141,10 @@ body{
 .fa-arrow-down:hover{
     color: gray;
 }
+
+/* Header bottom right */
+.header-bottom-right{
+    min-height: 100px;
+    width: 60%;
+    border: 2px dashed black;
+}
