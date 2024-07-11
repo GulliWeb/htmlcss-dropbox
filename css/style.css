@@ -20,11 +20,12 @@ body{
     display: flex;
 }
 
-/* Header */
+/* Header top */
 .header-top-container{
     height: 100px;
-    border: 2px dashed black;
+    width: 100%;
     margin: 0 10px;
+    display: flex;
 }
 
 .white{
@@ -56,17 +57,14 @@ body{
 .header-top-nav-right{
     flex-basis: 70%;
     justify-content: flex-end;
+    align-items: center;
     text-decoration: none;
     margin-right: 25px;
     color: gray;
 }
 
-.header-top-nav-left ul{
-    align-items: center;
-}
-
-.btn-nav{
-
+.header-top-nav-left ul {
+    display: flex;
 }
 
 #btn-right{
@@ -81,5 +79,11 @@ body{
 .btn-nav a{
     text-decoration: none;
     color: gray;
+}
+
+/* Header bottom */
+.header-bottom-container{
+
+
 }
 
