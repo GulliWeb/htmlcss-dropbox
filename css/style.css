@@ -1,0 +1,48 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Utils */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+/* Header */
+.header-top-container{
+    height: 100px;
+    border: 2px dashed black;
+    margin: 0 10px;
+}
+
+.header-top-nav-left{
+    width: 30%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-top-nav-left ul{
+    display: flex;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.header-top-nav-left ul li a{
+    text-decoration: none;
+    margin-right: 25px;
+    color: gray;
+}
+
