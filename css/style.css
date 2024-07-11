@@ -61,14 +61,16 @@ body{
     color: gray;
 }
 
+.header-top-nav-left ul{
+    align-items: center;
+}
+
 .btn-nav{
-    display: flex;
-    align-content: baseline;
+
 }
 
 #btn-right{
     margin-left: 10px;
-    padding: 10px;
     background-color: cornflowerblue;
 }
 
