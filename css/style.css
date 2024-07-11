@@ -56,16 +56,25 @@ body{
 /* Right */
 .header-top-nav-right{
     flex-basis: 70%;
+    height: 100%;
     justify-content: flex-end;
     align-items: center;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.header-top-nav-right ul {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.header-top-nav-right ul li a{
     text-decoration: none;
     margin-right: 25px;
     color: gray;
 }
 
-.header-top-nav-left ul {
-    display: flex;
-}
 
 #btn-right{
     margin-left: 10px;
