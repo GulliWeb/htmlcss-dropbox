@@ -18,6 +18,11 @@ body{
     margin: 0 auto;
 }
 
+.container-small{
+    max-width: 850px;
+    margin: 0 auto;
+}
+
 .flex{
     display: flex;
 }
@@ -27,8 +32,8 @@ body{
     margin: 0 auto;
 }
 
-.btn-layout{
-    background-color:  royalblue;
+.btn-primary{
+    background-color: #0160FC;
     font-size: 17px;
     color: white;
     
@@ -91,7 +96,6 @@ body{
 .header-top-nav-right ul {
     display: flex;
     list-style: none;
-    margin-right: 25px;
 }
 
 .header-top-nav-right ul li a{
@@ -101,9 +105,10 @@ body{
 }
 
 
-#btn-right{
-    margin-left: 10px;
-    background-color: cornflowerblue;
+#btn-right a{
+    background-color: #0160FC;
+    padding: 5px 10px;
+
 }
 
 #btn-right a{
@@ -118,16 +123,17 @@ body{
 /* Header bottom */
 .header-bottom-container{
     min-height: 100px;
+    max-height: 500px;
 }
 
 .header-bottom-title{
     font-weight: bolder;
     font-size: 50px;
+    margin-bottom: 27px;
 }
 
 .header-bottom-left{
     width: 40%;
-    margin-top: 40px;
 }
 
 .header-bottom-left p{
@@ -138,13 +144,21 @@ body{
     margin-bottom: 27px;
 }
 
-.fa-arrow-down:hover{
-    color: gray;
-}
-
 /* Header bottom right */
 .header-bottom-right{
-    min-height: 100px;
-    width: 60%;
-    border: 2px dashed black;
+    flex-basis: 60%;
 }
+
+.header-bottom-right-img img{
+    width: 100%;
+}
+
+/* Section payments plans */
+#payments-plans{
+    margin-top: 115px;
+}
+
+#payments-plans h1{
+    font-size: 40px;
+}
+
