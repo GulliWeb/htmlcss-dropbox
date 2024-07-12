@@ -160,5 +160,42 @@ body{
 
 #payments-plans h1{
     font-size: 40px;
+    margin-bottom: 60px;
 }
 
+/* Radio button */
+
+.rdb{
+    margin-bottom: 50px;
+}
+
+.rdb-left{
+    margin-right: 100px;
+}
+
+.rdb-left, .rdb-right{
+    display: inline-block;
+}
+
+/* .rdb-left::before{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: blue;
+}
+ */
+
+ /* Payments plans cards */
+
+ .row{
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+ }
+ .col{
+    flex-basis: calc(100% / 4);
+    flex-grow: 1;
+    border: 2px black dashed;
+ }
