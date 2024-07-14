@@ -268,6 +268,53 @@ body{
 .col-footer p{
     margin-top: 12px;
     margin-bottom: 12px;
-
 }
 
+/* Section payments plans footer*/
+.foot-container{
+    margin-top: 125px;
+}
+
+footer .row{
+    width: 100%;
+}
+
+footer .left{
+    width: 55%;
+    background-color: gray;;
+}
+
+.right{
+    flex-basis: 40%;
+}
+
+.left img{
+    width: 100%;
+}
+
+.right-content{
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.right-content h3{
+    font-size: 19px;
+}
+
+.right-content > *{
+    margin-bottom: 14px;
+    margin-left: 10px;
+}
+
+.right-content button{
+    background-color: white;
+    color: gray;
+    border: 2px solid gray;
+    font-size: 14px;
+    width: 40%;
+    margin-top: 7px;
+}
+
+.right-content button:hover{
+    background-color: lightgray;
+}
