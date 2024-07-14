@@ -8,7 +8,7 @@
 /* Generics */
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* Padding header position fixed */
+    /* Padding hea der position fixed */
     padding-top: 75px;
 }
 
@@ -40,6 +40,10 @@ body{
     height: 40px;
     padding: 5px;
     border: none;
+}
+
+.btn-primary:hover{
+    background-color: lightblue;
 }
 
 /* Header */
@@ -194,8 +198,76 @@ body{
     flex-wrap: wrap;
     gap: 30px;
  }
- .col{
+ .col, .col button{
     flex-basis: calc(100% / 4);
     flex-grow: 1;
     border: 2px black dashed;
+    font-size: 13px;
  }
+
+ .col-header{
+    height: 30px;
+    border-bottom: 1px dashed black;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ .col-title{
+    font-size: 19px;
+ }
+
+ .col-content{
+    width: 80%;
+    margin: 20px auto;
+ }
+
+.price{
+    margin-top: 18px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.price-monthly{
+    margin-top: 12px;
+    margin-bottom: 45px;
+    color: grey;
+}
+
+.plans-info div{ 
+    margin-top: 12px;
+}
+
+.plans-info button{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#buy-now{
+    margin-bottom: 50px;
+}
+
+#buy-now a{
+    color: #0160FC;
+}
+
+.border{
+    border: 1px solid lightgray;
+    width: 23%;
+    margin-bottom: 50px;
+}
+
+/* Column footer */
+.col-footer{
+    margin-top: 300px;
+    margin-bottom: 10pc;
+
+}
+
+.col-footer p{
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+}
+
