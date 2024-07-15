@@ -473,3 +473,30 @@ footer .content button{
     color: gray;
     font-size: 13px;
 }
+
+/* Section questions */
+.questions-container{
+    min-height: 100px;
+}
+
+.questions-container h2{
+    font-size: 27px;
+    font-stretch: semi-expanded;
+}
+
+.questions-container > *{
+    margin-bottom: 40px;
+}
+
+.questions-container li{
+    list-style: none;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.questions-container .border{
+    margin:0;
+    color: gray;
+    width: 100%;
+}
