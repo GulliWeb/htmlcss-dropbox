@@ -500,3 +500,46 @@ footer .content button{
     color: gray;
     width: 100%;
 }
+
+/* Footer page */
+.footer-page-container{
+    width: 100%;
+    min-height: 100px;
+
+
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    border: 2px solid white;
+}
+
+.cont{
+    max-width: 1200px;
+    margin: 60px auto;
+    justify-content: space-between;
+    gap: 80px;
+    margin-bottom: 35px;
+    border-bottom: 2px solid white;
+}
+
+.footer-page-container ul{
+    margin-bottom: 80px;
+}
+
+.footer-page-container li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.li-header{
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+#ita-footer{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
