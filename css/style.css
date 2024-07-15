@@ -255,6 +255,20 @@ body{
     margin: 20px auto;
  }
 
+ .col .large{
+
+
+ }
+
+ .col .left{
+    width: 60%
+ }
+
+ .col .large .right{
+    width: 40%;
+    border: 2px dashed red;
+ }
+
 .price{
     margin-top: 18px;
     font-size: 12px;
