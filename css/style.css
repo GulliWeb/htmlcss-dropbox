@@ -406,21 +406,70 @@ footer .left{
     font-size: 13px;
 }
 
-/* Clients card */
+/* Clients Main */
 .clients-container{
-    background-color: orange;
     min-height: 100px;
     width: 100%;
     justify-content: space-between;
 }
 
 .clients-container .card{
-    border: 2px dashed black;
+    flex-basis: calc(100% / 3);
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .logo{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+}
+
+.logo img{
+    justify-content: center;
+    align-items: center;
     width: 50%;
-    height: 50%;
-    flex-wrap: wrap;
-    border: 2px dashed red;
+    max-height: 100%;
+}
+
+.img-container{
+    width: 40%;
+}
+
+.card .container{
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.card .container img{
+    margin-bottom: 20px;
+}
+
+.card .container p{
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+/* Clients footer */
+footer .clients-container{
+    height: 200px;
+    background-color: cadetblue;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+footer .content{
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    color: brown;
+}
+
+footer .content button{
+    background-color: white;
+    color: gray;
+    font-size: 13px;
 }
