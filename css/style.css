@@ -411,17 +411,34 @@ footer .left{
     background-color: orange;
     min-height: 100px;
     width: 100%;
+    justify-content: space-between;
+}
+
+.clients-container .card{
+    width: calc(100vw / 3);
+    height: calc(100vh / 3);
 }
 
 .clients-container .left{
-    flex-basis: 30%;
+    flex-basis: calc(100% / 3);
+    border: 2px dashed black;
+    flex-shrink: 0;
+}
+
+.clients-container .middle{
+    flex-basis: calc(100% / 3);
     border: 2px dashed black;
 }
 
-.clients-container .center{
-    flex-basis: 40%;
+.clients-container .right{
+    flex-basis: calc(100% / 3);
+    border: 2px dashed black;
+    flex-shrink: 0;
 }
 
-.clients-container .right{
-    flex-basis: 30%;
+.clients-container .left .card{
+    height: 250px;
+    width: 50%;
+    border: 2px dashed black;
 }
+
