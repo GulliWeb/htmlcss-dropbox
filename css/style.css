@@ -415,12 +415,12 @@ footer .left{
 }
 
 .clients-container .card{
-    flex-basis: calc(100% / 3);
     border: 2px dashed black;
 }
 
 .logo{
     width: 50%;
+    height: 50%;
     flex-wrap: wrap;
     border: 2px dashed red;
 }
