@@ -414,28 +414,13 @@ footer .left{
     justify-content: space-between;
 }
 
-.clients-container .left{
-    flex-basis: calc(100% / 3);
-    border: 2px dashed black;
-    flex-shrink: 0;
-    flex-grow: 0;
-    flex-wrap: wrap;
-}
-
-.clients-container .middle{
+.clients-container .card{
     flex-basis: calc(100% / 3);
     border: 2px dashed black;
 }
 
-.clients-container .right{
-    flex-basis: calc(100% / 3);
-    border: 2px dashed black;
-    flex-shrink: 0;
-}
-
-.clients-container .left .card{
-    height: 250px;
+.logo{
     width: 50%;
-    border: 2px dashed black;
+    flex-wrap: wrap;
+    border: 2px dashed red;
 }
-
