@@ -414,15 +414,12 @@ footer .left{
     justify-content: space-between;
 }
 
-.clients-container .card{
-    width: calc(100vw / 3);
-    height: calc(100vh / 3);
-}
-
 .clients-container .left{
     flex-basis: calc(100% / 3);
     border: 2px dashed black;
     flex-shrink: 0;
+    flex-grow: 0;
+    flex-wrap: wrap;
 }
 
 .clients-container .middle{
